@@ -1,4 +1,5 @@
 # CLONE AIRBNB!
+![logo de mi proyecto](IMAGENES_CHULAS/airbnb.jpg)
 
 ## Description of the project:
 
