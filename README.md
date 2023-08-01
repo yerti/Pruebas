@@ -93,6 +93,6 @@ To start using the shell, follow these steps:
    or --help on Linux. For example: command /? or --help command.
 
 ## Authors
-**Yerti Mariela Mosqueira Briceño**
-**Denzel Andres Romero Bautista**
-~                                    
+
+- **Yerti Mariela Mosqueira Briceño**
+- **Denzel Andres Romero Bautista**                                   
