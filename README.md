@@ -8,13 +8,13 @@ which you can do accommodation searches or see reviews
 of places, safe, comfortable and accessible lodgings for your reach.
 
 ## Table of contens:
-- [The command interpreter:](#The command interpreter:)
-   - [How to start it](#How to start it)
-   - [How to use it](#How to use it)
+- [The command interpreter:](#The-command-interpreter:)
+   - [How to start it](#How-to-start-it)
+   - [How to use it](#How-to-use-it)
    - [Examples](#Examples)
 - [Authors](#Athors)
 
-##The command interpreter:
+## The command interpreter:
 
 The command interpreter is also known as shell or terminal
 where it allows us to interact with the operating system by
