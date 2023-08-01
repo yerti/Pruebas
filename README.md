@@ -12,7 +12,7 @@ of places, safe, comfortable and accessible lodgings for your reach.
    - [How to start it](#how-to-start-it)
    - [How to use it](#how-to-use-it)
    - [Examples](#examples)
-- [The command inter](#the-command-inter)
+- [The Authors](#the-authors)
 
 ## The command interpreter:
 
@@ -92,7 +92,7 @@ To start using the shell, follow these steps:
    of a specific command, you can use the /? option. on Windows
    or --help on Linux. For example: command /? or --help command.
 
-## The command inter
+## The Authors
 
 - **Yerti Mariela Mosqueira Briceño**
 - **Denzel Andres Romero Bautista**                                   
