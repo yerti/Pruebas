@@ -8,7 +8,7 @@ which you can do accommodation searches or see reviews
 of places, safe, comfortable and accessible lodgings for your reach.
 
 ## Table of contens:
-- [The command interpreter:](#The-command-interpreter:)
+- [The command interpreter:](#The-command-interpreter)
    - [How to start it](#How-to-start-it)
    - [How to use it](#How-to-use-it)
    - [Examples](#Examples)
