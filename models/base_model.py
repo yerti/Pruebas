@@ -4,7 +4,7 @@ Contains class BaseModel >:v
 """
 import uuid
 import datetime
-
+import models
 
 class BaseModel:
     """The BaseModel class of future classes"""
