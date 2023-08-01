@@ -8,11 +8,11 @@ which you can do accommodation searches or see reviews
 of places, safe, comfortable and accessible lodgings for your reach.
 
 ## Table of contens:
-- [The command interpreter:](#The-command-interpreter)
-   - [How to start it](#How-to-start-it)
-   - [How to use it](#How-to-use-it)
-   - [Examples](#Examples)
-- [Authors](#Athors)
+- [The command interpreter:](#the-command-interpreter)
+   - [How to start it](#how-to-start-it)
+   - [How to use it](#how-to-use-it)
+   - [Examples](#examples)
+- [Authors](#athors)
 
 ## The command interpreter:
 
