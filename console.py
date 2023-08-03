@@ -3,6 +3,11 @@ import cmd
 
 class HBNBCommand(cmd.Cmd):
     """text"""
+    def emptyline(self):
+        """text"""
+        pass
+
+
     completekey = None
     
     prompt = '(hbnb) '
@@ -12,9 +17,11 @@ class HBNBCommand(cmd.Cmd):
 
     def do_help(self, line):
         """Show help information for commands"""
+        print("\n")
         print("Documented commands (type help <topic>):")
         print("========================================")
         print("EOF  help  quit")
+        print("\n")
 
     def help_help(self):
         """text"""
