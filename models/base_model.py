@@ -39,6 +39,6 @@ class BaseModel:
         """Updates the attribute 'updated_at' with the current datetime"""
         new_dict = self.__dict__.copy()
         new_dict["__class__"] = self.__class__.__name__
-        new_dict["created_at"] = self.created_at.isoformat()
-        new_dict["updated_at"] = self.updated_at.isoformat()
+        new_dict["created_at"] = str(self.created_at.isoformat())
+        new_dict["updated_at"] = str(self.updated_at.isoformat())
         return new_dict

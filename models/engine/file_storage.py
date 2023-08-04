@@ -17,15 +17,15 @@ class FileStorage:
 
     def new(self, obj):
         key = "{}.{}".format(obj.__class__.__name__,obj.id)
-        FileStorage.__objects[key] = obj.to_dict()
+        FileStorage.__objects[key] = obj
 
     def save(self):
         objts_dict = {}
 
-        for key, obj in FileStorage.__objects.items():
-            objts_dict[key] = obj
+        for key, obj in self.__objects.items():
+            objts_dict[key] = obj.to_dict()
 
-        with open(FileStorage.__file_path, 'w', encoding='utf-8') as file:
+        with open(self.__file_path, 'w', encoding='utf-8') as file:
             json.dump(objts_dict, file)
 
     def reload(self):
@@ -34,8 +34,8 @@ class FileStorage:
                 alm = f.read()
                 dictr = json.loads(alm)
                 for key, value in dictr.items():
-                    if '__class__' in value:
-                        obj = eval(value['__class__'])(**value)
-                        FileStorage.__objects[key] = obj
+                    value = dictr[key]
+                    obj = eval(value['__class__'])(**value)
+                    FileStorage.__objects[key] = obj
         else:
             pass
