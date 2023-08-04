@@ -34,8 +34,8 @@ class FileStorage:
                 alm = f.read()
                 dictr = json.loads(alm)
                 for key, value in dictr.items():
-                    value = dictr[key]
-                    obj = eval(value['__class__'])(**value)
-                    FileStorage.__objects[key] = obj
+                    if '__class__' in value:
+                        obj = eval(value['__class__'])(**value)
+                        FileStorage.__objects[key] = obj
         else:
             pass
