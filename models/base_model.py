@@ -19,7 +19,7 @@ class BaseModel:
                     self.updated_at = datetime.strptime(value, '%Y-%m-%dT%H:%M:%S.%f')
                 elif key == "created_at":
                     self.created_at = datetime.strptime(value, '%Y-%m-%dT%H:%M:%S.%f')
-            
+
         else:
             self.id = str(uuid4())
             self.created_at = datetime.now()
