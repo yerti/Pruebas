@@ -43,7 +43,7 @@ class HBNBCommand(cmd.Cmd):
                 cls = eval(line)
                 instance = cls()
                 instance.save()
-                print("instance.id")
+                print(instance.id)
             except NameError:
                 print("** class doesn't exist **")
     
