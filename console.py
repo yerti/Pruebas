@@ -43,7 +43,7 @@ class HBNBCommand(cmd.Cmd):
                 cls = eval(line)
                 instance = cls()
                 instance.save()
-                print("instance.id")
+                print(instance.id)
             except NameError:
                 print("** class doesn't exist **")
     
@@ -52,6 +52,19 @@ class HBNBCommand(cmd.Cmd):
         if not line:
             print("** class name missing **")
         else:
+            args = line.split()
+            if args[0] not in ["BaseModel"]:
+                print("** class doesn't exist **")
+            elif len(args) < 2:
+                print("** instance id missing **")
+            else:
+                from models import storage
+                obje_key = "{}.{}".format(args[0], args[1])
+                objects = storage.all()
+                if obje_key in objects:
+                    print(objects[obje_key])
+                else:
+                    print("** no instance found **")
 
 
 if __name__ == '__main__':
