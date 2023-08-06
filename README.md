@@ -3,19 +3,19 @@
 
 ## Description of the project💬
 
-This project is a clone of the main "AirBnB" page,
+This project is a clone of the main "AirBnB" page, 
 where the purpose is to have the same functionality of the authentic page,
 which you can do accommodation searches or see reviews
 of places, safe, comfortable and accessible lodgings for your reach.
 
 ## Table of contens🔎:
-- [The console:computer:](#the-console-:computer:)
+- [The console  :computer:](#the-console)
    - [How to start it](#how-to-start-it)
    - [How to use it](#how-to-use-it)
    - [Examples](#examples)
 - [The Authors](#the-authors)
 
-## The console:computer:
+## The console  :computer:
 
 The command interpreter is also known as shell or terminal
 where it allows us to interact with the operating system by
