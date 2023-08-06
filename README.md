@@ -32,7 +32,7 @@ EOF  help  quit
 | `create <class>`   | Creates a new instance of a given class with a unique ID and saves it to a JSON file |
 | `show <class> <id>`   | Prints the string representation of a class instance based on the class name and ID|
 | `update`   | Updates an instance based on the class name and id by adding or updating attribute and saves changes to a JSON file |
-| `destroy <class><id>`  | Deletes an instance based on the class name and id and saves it to a JSON file |
+| `destroy<class><id>`  | Deletes an instance based on the class name and id and saves it to a JSON file |
 
 
 ## The Authors :mortar_board:
