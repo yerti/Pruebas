@@ -9,7 +9,7 @@ which you can do accommodation searches or see reviews
 of places, safe, comfortable and accessible lodgings for your reach.
 
 ## Table of contens🔎:
-- [The console--:shipit:](#the-console---:shipit:)
+- [The console--:shipit:](#the-console--:shipit:)
    - [How to start it](#how-to-start-it)
    - [How to use it](#how-to-use-it)
    - [Examples](#examples)
