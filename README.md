@@ -24,11 +24,11 @@ EOF  help  quit
 
 ### Console Commands⚡
 | Command | Description |
-| `Basic commands`| ----------- |
+| `Basic commands`| `----------- `|
 | `help` | Displays help page |
 | `quit` | Quits the console |
 | `EOF` | Quits the console |
-| `Complete commands`| ----------- |
+| `Complete commands`|` ----------- `|
 | `all` | Prints all string representation of all instances based or not on the class name |
 | `show <class> <id>` | Prints the string representation of a class instance based on the class name and ID|
 | `create <class>` | Creates a new instance of a given class with a unique ID and saves it to a JSON file |
