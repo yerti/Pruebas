@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 import cmd
+import json
 
-
+"""The starting point for the command interpreter"""
 class HBNBCommand(cmd.Cmd):
-    """text"""
+    """HBNBCommand class that implements a command line interface"""
     def emptyline(self):
-        """text"""
+        """This will give a blank line"""
         pass
 
     completekey = None
@@ -15,26 +16,24 @@ class HBNBCommand(cmd.Cmd):
         super().__init__()
 
     def do_help(self, line):
-        """Show help information for commands"""
+        """"Show help information for commands"""
         print("\n")
         print("Documented commands (type help <topic>):")
         print("========================================")
         print("EOF  help  quit  create")
         print("\n")
 
-    def help_help(self):
-        """text"""
-        print("Show help information for commands")
-
     def do_quit(self, line):
+        """Command to exit the program"""
         print("Quit command to exit the program")
         return True
 
     def do_EOF(self, line):
+        """Command to handle the end of the file (Ctrl+D)"""
         return True
 
     def do_create(self, line):
-        """text"""
+        """Instance creator for test classes"""
         if not line:
             print("** class name missing **")
         else:
@@ -48,7 +47,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** class doesn't exist **")
     
     def do_show(self, line):
-        """text"""
+        """Muestra información de una instancia"""
         if not line:
             print("** class name missing **")
         else:
@@ -67,7 +66,7 @@ class HBNBCommand(cmd.Cmd):
                     print("** no instance found **")
 
     def do_destroy(self, line):
-        """text destroyer"""
+        """Destroy an instance"""
         args = line.split()
         if not args:
             print("** class name missing **")
@@ -89,7 +88,7 @@ class HBNBCommand(cmd.Cmd):
                     print("** no instance found **")
     
     def do_all(self, line):
-        """texts all"""
+        """Prints all string representations of all instances"""
         from models import storage
         args = line.split()
         objects = storage.all()
@@ -106,7 +105,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** class doesn't exist **")
 
     def do_update(self, line):
-        """text update"""
+        """Update an instance based on the class name and ID"""
         args = line.split()
         if not args:
             print("** class name missing **")
