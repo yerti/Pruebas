@@ -1,21 +1,21 @@
-# CLONE AIRBNB!
+# CLONE AIRBNB!:shipit:
 ![logo de mi proyecto](IMAGENES_CHULAS/airbnb.jpg)
 
-## Description of the project:
+## Description of the project💬
 
 This project is a clone of the main "AirBnB" page,
 where the purpose is to have the same functionality of the authentic page,
 which you can do accommodation searches or see reviews
 of places, safe, comfortable and accessible lodgings for your reach.
 
-## Table of contens:
-- [The command interpreter:](#the-command-interpreter)
+## Table of contens🔎:
+- [The console 💻:](#the-console-💻)
    - [How to start it](#how-to-start-it)
    - [How to use it](#how-to-use-it)
    - [Examples](#examples)
 - [The Authors](#the-authors)
 
-## The command interpreter:
+## The console 💻:
 
 The command interpreter is also known as shell or terminal
 where it allows us to interact with the operating system by
@@ -93,7 +93,7 @@ To start using the shell, follow these steps:
    of a specific command, you can use the /? option. on Windows
    or --help on Linux. For example: command /? or --help command.
 
-## The Authors
+## The Authors :mortar_board:
 
 - **Yerti Mariela Mosqueira Briceño**
 - **Denzel Andres Romero Bautista**                                   
