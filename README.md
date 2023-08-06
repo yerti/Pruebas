@@ -15,7 +15,7 @@ of places, safe, comfortable and accessible lodgings for your reach.
    - [Examples](#examples)
 - [The Authors](#the-authors)
 
-## The console
+## The console:shipit:
 
 The command interpreter is also known as shell or terminal
 where it allows us to interact with the operating system by
