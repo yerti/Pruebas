@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import cmd
+from models.user import User
 
 
 class HBNBCommand(cmd.Cmd):
@@ -53,7 +54,7 @@ class HBNBCommand(cmd.Cmd):
             print("** class name missing **")
         else:
             args = line.split()
-            if args[0] not in ["BaseModel"]:
+            if args[0] not in ["BaseModel, User"]:
                 print("** class doesn't exist **")
             elif len(args) < 2:
                 print("** instance id missing **")
@@ -75,7 +76,7 @@ class HBNBCommand(cmd.Cmd):
             from models import storage
             class_name = args[0]
             objects = storage.all()
-            if class_name not in ["BaseModel"]:
+            if class_name not in ["BaseModel, user"]:
                 print("** class doesn't exist **")
             elif len(args) < 2 :
                 print("** instance id missing **")
@@ -98,7 +99,7 @@ class HBNBCommand(cmd.Cmd):
         else:
             try:
                 cls = eval(args[0])
-                if cls.__name__ not in ["BaseModel"]:
+                if cls.__name__ not in ["BaseModel, User"]:
                     print("** class doesn't exist **")
                 else:
                     print([str(obj) for obj in objects.values() if isintance(obj, cls)])
@@ -115,7 +116,7 @@ class HBNBCommand(cmd.Cmd):
         from models import storage
         class_name = args[0]
         objects = storage.all()
-        if class_name not in ["BaseModel"]:
+        if class_name not in ["BaseModel, User"]:
             print("** class doesn't exist **")
             return
         if len(args) < 2:
