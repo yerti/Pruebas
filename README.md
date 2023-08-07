@@ -34,7 +34,7 @@ EOF  help  quit
 | `update`   | Updates an instance based on the class name and id by adding or updating attribute and saves changes to a JSON file |
 | `destroy<class><id>`  | Deletes an instance based on the class name and id and saves it to a JSON file |
 
-### Unit Tests🌚
+## Unit Tests🌚
 Unit tests are saved in the tests directory, run the following command to perform the tests:
 ```
 python3 -m unittest discover tests
