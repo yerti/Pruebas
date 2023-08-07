@@ -12,6 +12,8 @@ of places, safe, comfortable and accessible lodgings for your reach.
 | Command   | Description |
 | -------  | ----------- |
 | `help`   | Displays help page |
+| -------  | ----------- |
+| `help`   | Displays help page |
 ## The Console💻:
 The console has the use of an interface so that the user can interact with the program.
 ```
