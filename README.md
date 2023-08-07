@@ -10,7 +10,6 @@ of places, safe, comfortable and accessible lodgings for your reach.
 
 ## Python language:
 |  install python on linux URL: [Add install python on linux here] | (https://www.python.org/downloads/source/) |
-| -------  | ----------- |
 | install python on windows URL: [Add install python on windows URL here] | (https://www.python.org/downloads/) |
 | install python on MacOS URL: [Add install python on MacOSh here] | (https://www.python.org/downloads/macos/) |
 
